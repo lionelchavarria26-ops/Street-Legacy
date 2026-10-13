@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Street Legacy: streetwear, actitud e identidad. Envíos a todo el Perú.">
+  <title>Street Legacy | Tienda oficial</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">ENVÍOS A TODO EL PERÚ 🇵🇪 · STREET. ATTITUDE. IDENTITY. LEGACY.</div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Street Legacy inicio">STREET <span>LEGACY</span></a>
+    <nav><a href="#coleccion">Colección</a><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a></nav>
+    <button class="cart-button" id="open-cart" aria-label="Abrir carrito">CARRITO <span id="cart-count">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">STREETWEAR · PERÚ</p>
+        <h1>VISTE DIFERENTE.<br><span>MARCA TU LEGADO.</span></h1>
+        <p>Prendas seleccionadas para quienes tienen su propio estilo. Actitud y esencia sin seguir lo de siempre.</p>
+        <a class="button button-light" href="#coleccion">VER COLECCIÓN <span>↘</span></a>
+      </div>
+      <div class="hero-mark" aria-hidden="true"><span>SL</span><small>EST. 2025</small></div>
+    </section>
+
+    <section class="collection section" id="coleccion">
+      <div class="section-heading">
+        <div><p class="eyebrow">ENCUENTRA TU ESTILO</p><h2>LA COLECCIÓN</h2></div>
+        <p>Streetwear pensado para marcar presencia.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filtrar productos">
+        <button class="filter active" data-filter="Todos">Todos</button>
+        <button class="filter" data-filter="Pantalones">Pantalones</button>
+        <button class="filter" data-filter="Polos">Polos</button>
+        <button class="filter" data-filter="Hoodies">Hoodies y casacas</button>
+      </div>
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <section class="manifesto" id="nosotros">
+      <p class="eyebrow">STREET. ATTITUDE. IDENTITY. LEGACY.</p>
+      <h2>NO SIGAS EL ESTILO.<br><span>HAZLO TUYO.</span></h2>
+      <p>Una selección de prendas streetwear para expresar quién eres.</p>
+    </section>
+
+    <section class="contact section" id="contacto">
+      <div><p class="eyebrow">¿TIENES DUDAS?</p><h2>HABLEMOS.</h2><p>Escríbenos para consultar disponibilidad, tallas y envíos.</p></div>
+      <a class="button button-dark" href="https://www.instagram.com/street_legacy.pe/" target="_blank" rel="noreferrer">INSTAGRAM ↗</a>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#">STREET <span>LEGACY</span></a><p>© 2026 Street Legacy. Todos los derechos reservados.</p><p>ENVÍOS A TODO EL PERÚ 🇵🇪</p></footer>
+
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Carrito de compras" aria-hidden="true">
+    <div class="drawer-head"><h2>Tu carrito</h2><button id="close-cart" class="close-button" aria-label="Cerrar carrito">×</button></div>
+    <div id="cart-items" class="cart-items"><p class="empty-cart">Tu carrito está vacío.</p></div>
+    <div class="cart-bottom">
+      <div class="total-row"><span>Subtotal</span><strong id="cart-total">S/ 0.00</strong></div>
+      <p class="small-note">El costo de envío se confirmará antes del pago.</p>
+      <button class="button button-light full" id="checkout-button">CONTINUAR AL PAGO</button>
+      <p class="small-note">Los pagos online se habilitarán al conectar la pasarela de pago.</p>
+    </div>
+  </aside>
+
+  <div class="modal-backdrop" id="checkout-backdrop">
+    <section class="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="checkout-title">
+      <button id="close-checkout" class="close-button modal-close" aria-label="Cerrar">×</button>
+      <p class="eyebrow">ÚLTIMO PASO</p>
+      <h2 id="checkout-title">Finalizar pedido</h2>
+      <p>Esta versión es una demo funcional del catálogo y carrito. Para recibir pagos reales hay que conectar una pasarela como Culqi y configurar sus credenciales privadas de forma segura.</p>
+      <button class="button button-dark full" id="understood">ENTENDIDO</button>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

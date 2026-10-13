@@ -1,0 +1,14 @@
+STREET LEGACY — tienda online inicial con pedidos por WhatsApp
+
+CONTENIDO
+- index.html: página principal
+- styles.css: diseño responsive blanco y negro
+- app.js: catálogo de muestra, filtros, carrito y preparación del pedido para WhatsApp
+
+WHATSAPP
+El botón de pedidos está configurado para abrir el chat con el número indicado por el dueño de la tienda. Verifica que el número esté correcto antes de publicar.
+
+IMPORTANTE
+Esta versión prepara el pedido y lo envía a WhatsApp para que el cliente lo revise y lo mande. No procesa pagos ni confirma stock automáticamente. Puedes coordinar pago por Yape o transferencia por chat; confirma siempre el pago en tu propia app antes de entregar.
+Los productos, colores y precios son una base editable de ejemplo. Revisa stock, nombres, tallas y precios antes de publicar. Las siluetas son ilustraciones CSS temporales; reemplázalas por tus fotos reales.
+Para vender comercialmente, revisa las condiciones del proveedor de alojamiento y posibles costos de dominio/hosting.
